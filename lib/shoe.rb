@@ -9,7 +9,7 @@ class Shoe
 
   def initialize(brand)
     @brands = brand
-      while BRANDS.include?(brand)
+      while BRANDS.!include?(brand)
     BRANDS << brand
    
   end 
